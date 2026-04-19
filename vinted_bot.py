@@ -11,7 +11,7 @@ DISCORD_WEBHOOK_URL = "https://discordapp.com/api/webhooks/1495524617589100704/q
 SEARCH_QUERY        = "pull saint james"   # Mots-clés Vinted
 MAX_PRICE           = 30                   # Prix max en euros
 CHECK_INTERVAL      = 300                  # Délai entre chaque vérif (secondes)
-# ============================================================
+# DISCORD_WEBHOOK_URL = os.environ.get("DISCORD_WEBHOOK_URL", "")
 
 VINTED_API_URL  = "https://www.vinted.fr/api/v2/catalog/items"
 SEEN_ITEMS_FILE = "seen_items.json"
